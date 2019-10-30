@@ -1,0 +1,11 @@
+spring:
+  couchbase:
+    bootstrap-hosts: ${couchbase.host}
+    bucket:
+      name: ${couchbase.bucket.name}
+      password: ${couchbase.bucket.password}
+  data:
+    couchbase:
+      auto-index: true
+server:
+  port: 9003
